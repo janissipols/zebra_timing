@@ -1,0 +1,56 @@
+[
+  {
+    "idHex": null,
+    "name": null,
+    "start_time": null,
+    "result": null
+  },
+  {
+    "idHex": "b9cc84ea69180204fc738789104ef635",
+    "name": "Liga",
+    "start_time": null,
+    "result": null
+  },
+  {
+    "idHex": "a9c885aa791c0236d4c6340d824dbe37",
+    "name": "Edijs1",
+    "start_time": null,
+    "result": null
+  },
+  {
+    "idHex": "000000000000002f2c42d43f",
+    "name": "Edijs2",
+    "start_time": "2026-10-25T17:03:00.000+0200",
+    "result": null
+  },
+  {
+    "idHex": "005c002f00001658",
+    "name": "Edijs3",
+    "start_time": "2026-10-25T17:57:00.000+0200",
+    "result": "2026-10-25T17:58:46.550+0200"
+  },
+  {
+    "idHex": "005c002e00001c7b",
+    "name": "Edijs4",
+    "start_time": "2026-10-25T17:02:00.000+0200",
+    "result": "2026-10-25T17:39:26.905+0200"
+  },
+  {
+    "idHex": "0b643040",
+    "name": "Edijs5",
+    "start_time": "2026-10-25T17:01:00.000+0200",
+    "result": "2026-10-25T17:39:17.497+0200"
+  },
+  {
+    "idHex": "005c002e00000df1",
+    "name": "Aleksandrs",
+    "start_time": "2026-10-25T17:00:00.000+0200",
+    "result": "2026-10-25T17:38:57.586+0200"
+  },
+  {
+    "idHex": "005c002d0000148b",
+    "name": "Edijs7",
+    "start_time": "2026-10-25T17:53:00.000+0200",
+    "result": "2026-10-25T17:56:17.702+0200"
+  }
+]
