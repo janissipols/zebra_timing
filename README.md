@@ -59,7 +59,34 @@ The JSON and CSV files are created or updated by the applications. Run the appli
 
 ## Installation
 
-Install the MQTT dependency:
+From the project directory, create the virtual environment once if it does not
+already exist:
+
+```bash
+python3 -m venv zebra_timing_env
+```
+
+Activate it in each terminal where you run a script.
+
+macOS/Linux:
+
+```bash
+source zebra_timing_env/bin/activate
+```
+
+Windows PowerShell:
+
+```powershell
+.\zebra_timing_env\Scripts\Activate.ps1
+```
+
+Windows Command Prompt:
+
+```bat
+zebra_timing_env\Scripts\activate.bat
+```
+
+With the environment active, install the MQTT dependency:
 
 ```bash
 python -m pip install "paho-mqtt>=2.0"
@@ -230,24 +257,32 @@ The `time` column contains the calculated elapsed duration. Records with `result
 ## Recommended Startup Procedure
 
 Run each application in a separate terminal window from the project directory.
+In each terminal, activate the virtual environment using the command for your
+operating system above, then run the corresponding script:
 
 **Terminal 1 — Registration**
 
 ```bash
+source zebra_timing_env/bin/activate
 python registration.py
 ```
 
 **Terminal 2 — Finish Event Tracking**
 
 ```bash
+source zebra_timing_env/bin/activate
 python finish.py
 ```
 
 **Terminal 3 — CSV Report**
 
 ```bash
+source zebra_timing_env/bin/activate
 python registration_to_csv.py
 ```
+
+For Windows, replace the `source ...` line with the appropriate activation
+command above.
 
 Ensure the Mosquitto broker is running before starting the applications.
 
@@ -327,4 +362,3 @@ Contains the calculated report with four columns:
 
 Add a license appropriate for your project before publishing it publicly.
 ```
-
