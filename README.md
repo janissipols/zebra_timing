@@ -186,6 +186,9 @@ Listens for tag events and records the first eligible event timestamp as the res
 python finish.py
 ```
 
+To write finish results to `registration.csv`, run `registration_to_csv.py`
+in a separate terminal and leave it running alongside `finish.py`.
+
 ### Example MQTT Message
 
 ```json
@@ -242,6 +245,10 @@ time = result - start_time
 ```bash
 python registration_to_csv.py
 ```
+
+Keep this process running while `finish.py` records results. It checks
+`registration.json` every second and updates `registration.csv` when results
+change.
 
 Keep the application running to maintain the report automatically.
 
